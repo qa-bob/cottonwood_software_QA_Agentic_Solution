@@ -1,23 +1,28 @@
-﻿{
-    "name":  "Cottonwood Software",
-    "url":  "http://www.cottonwoodsoftware.com",
-    "description":  "",
-    "industry":  "",
-    "hasContactForm":  true,
-    "expectedNavItems":  [
-
-                         ],
-    "viewports":  [
-                      "desktop",
-                      "mobile",
-                      "tablet"
-                  ],
-    "skipVisual":  false,
-    "skipForms":  false,
-    "auth":  {
-                 "required":  false,
-                 "loginUrl":  "",
-                 "username":  "",
-                 "password":  ""
-             }
+{
+  "name": "Cottonwood Software",
+  "url": "http://www.cottonwoodsoftware.com",
+  "description": "Campground Master reservation software for RV parks, campgrounds, marinas, and similar venues",
+  "industry": "Hospitality / Recreation Software",
+  "hasContactForm": false,
+  "expectedNavItems": [
+    "Home",
+    "FREE Demo",
+    "Features",
+    "Buy / Renew",
+    "Support",
+    "Contact Us"
+  ],
+  "viewports": [
+    "desktop",
+    "mobile",
+    "tablet"
+  ],
+  "skipVisual": false,
+  "skipForms": true,
+  "auth": {
+    "required": false,
+    "loginUrl": "",
+    "username": "",
+    "password": ""
+  }
 }

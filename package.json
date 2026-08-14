@@ -1,12 +1,14 @@
 {
   "name": "@qa-bob/playwright-framework",
   "version": "1.0.0",
-  "description": "Shared Playwright + TypeScript regression framework for qa-bob company sites",
+  "description": "Playwright + TypeScript regression framework for Cottonwood Software / Campground Master",
   "scripts": {
     "test": "playwright test",
     "test:smoke": "playwright test --grep @smoke",
     "test:navigation": "playwright test --grep @navigation",
     "test:forms": "playwright test --grep @forms",
+    "test:functional": "playwright test --grep @functional",
+    "test:regression": "playwright test --grep @regression",
     "test:visual": "playwright test --grep @visual",
     "test:responsive": "playwright test --grep @responsive",
     "test:headed": "playwright test --headed",

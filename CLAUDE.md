@@ -26,7 +26,11 @@ Build and maintain a comprehensive GUI, functional, and regression test suite fo
 | `tests/functional/` | @functional — business logic, user flows |
 | `tests/visual/` | @visual — screenshot regression |
 | `tests/responsive/` | @responsive — layout at mobile/tablet/desktop |
+| `tests/regression/` | @regression — full cross-page regression sweep |
 | `.claude/commands/` | Slash commands for agentic tasks |
+| `.claude/settings.json` | Claude Code project permissions and env settings |
+| `AGENTS.md` | Sub-agent documentation |
+| `SKILLS.md` | Slash command / skill reference |
 
 ---
 
