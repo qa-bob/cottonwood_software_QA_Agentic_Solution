@@ -115,7 +115,7 @@ test.describe('Cross-page link integrity @regression', () => {
     await page.goto(siteConfig.url, { waitUntil: 'domcontentloaded' });
 
     const pdfLink = page.locator('a[href$=".pdf"]').first();
-    if (await pdfLink.count() === 0) return; // site may have removed it
+    test.skip(await pdfLink.count() === 0, 'No brochure PDF link found — site may have removed it');
 
     const href = await pdfLink.getAttribute('href');
     const absoluteUrl = new URL(href!, siteConfig.url).toString();
